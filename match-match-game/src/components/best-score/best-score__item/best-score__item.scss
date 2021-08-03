@@ -1,0 +1,52 @@
+.best-score__item {
+  position: relative;
+  display: flex;
+  width: 870px;
+  height: 45px;
+  margin-top: 18px;
+
+  border-bottom: 1px solid rgba(33, 33, 33, 0.08);
+
+  &_avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: round($number: 20px);
+    background-color: #fafafa;
+    margin-left: 10px;
+  }
+
+  &_about-user {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+    &_name {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      letter-spacing: 0.1px;
+      color: #333333;
+    }
+
+    &_email {
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 0.4px;
+      margin-top: 2px;
+      color: #333333;
+    }
+  }
+
+  &_score {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.87);
+
+    position: absolute;
+    right: 20px;
+    top: 7px;
+  }
+}

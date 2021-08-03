@@ -1,0 +1,107 @@
+.header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 64px;
+  width: 100%;
+  background-color: #2196f3;
+
+  &__logo {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 40px;
+    margin-left: 1.38%;
+
+    &_top {
+      background-image: url(../../../public/match.png);
+      background-repeat: no-repeat;
+      background-position: bottom;
+      height: 20px;
+    }
+    &_bottom {
+      justify-content: center;
+      background-color: #fff;
+      background-image: url(../../../public/match-1.png);
+      background-repeat: no-repeat;
+      background-position: bottom;
+      height: 20px;
+    }
+  }
+
+  &__registration_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 207px;
+    height: 36px;
+    margin-left: 46.45%;
+    background: #f2f9fe;
+    border: none;
+    outline: none;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 1px 18px rgba(0, 0, 0, 0.12),
+      0px 6px 10px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    color: #2196f3;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__start-stop_button {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+
+    background: #f2f9fe;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 1px 18px rgba(0, 0, 0, 0.12),
+      0px 6px 10px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin-left: 46.45%;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #2196f3;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &__avatar {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-left: 1.39%;
+    border-radius: round($number: 20px);
+    background-color: #fafafa;
+  }
+}
+.header-log > .header__registration_button {
+  display: none;
+}
+.header-log > .header__start-stop_button {
+  display: flex;
+}
+.header-log > .header__avatar {
+  display: flex;
+}
+.router-container {
+  display: flex;
+  margin-left: 10.56%;
+  width: 288px;
+}

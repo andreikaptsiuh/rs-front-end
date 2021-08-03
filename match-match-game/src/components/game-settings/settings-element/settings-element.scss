@@ -1,0 +1,40 @@
+.settings-element {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+
+  height: 68px;
+  width: 256px;
+
+  border-bottom: 1px solid #e5e5e5;
+
+  &__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: rgba(0, 0, 0, 0.87);
+
+    margin-left: 16px;
+    margin-top: 4px;
+  }
+
+  &__input {
+    width: 225px;
+    border: none;
+    outline: none;
+
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+    color: rgba(0, 0, 0, 0.6);
+
+    margin-left: 16px;
+    margin-top: 5px;
+  }
+}
