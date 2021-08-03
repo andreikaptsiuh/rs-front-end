@@ -1,0 +1,28 @@
+.winners-pagination {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 450px;
+  padding-bottom: 30px;
+  background: darkcyan;
+
+  margin-top: 50px;
+  position: relative;
+
+  &__page {
+    color: rgb(17, 48, 9);
+    margin-top: 5px;
+
+    &_head {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin-left: 15px;
+      margin-top: 15px;
+
+      & > p {
+        width: 140px;
+      }
+    }
+  }
+}

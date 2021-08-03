@@ -1,0 +1,31 @@
+.winner-auto {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background-color: blueviolet;
+  margin-top: 5px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 10px;
+
+    & > p,
+    & > svg {
+      width: 140px;
+    }
+
+    &_img {
+      display: flex;
+      width: 20px;
+      height: 20px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+.winner-auto.display_none {
+  display: none;
+}

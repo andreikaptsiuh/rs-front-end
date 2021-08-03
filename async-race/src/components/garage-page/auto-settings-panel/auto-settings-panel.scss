@@ -1,0 +1,50 @@
+.auto-create {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 280px;
+  height: 100px;
+  margin-top: 50px;
+  background-color: rgba(220, 20, 60, 0.438);
+  border: 2px solid rgba(204, 24, 60, 0.692);
+  border-radius: 5px;
+
+  &__create,
+  &__update,
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    height: 25px;
+  }
+
+  &__create,
+  &__update {
+    & > button {
+      width: 60px;
+      border-radius: 5px;
+      box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+      cursor: pointer;
+      outline: none;
+      border: none;
+    }
+    & > button:hover {
+      background-color: rgb(223, 219, 219);
+    }
+  }
+
+  &__buttons > button {
+    padding-right: 15px;
+    padding-left: 15px;
+
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+
+  &__buttons > button:hover {
+    background-color: rgb(223, 219, 219);
+  }
+}
