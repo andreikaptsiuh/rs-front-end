@@ -1,0 +1,33 @@
+.statistic-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  background: #686dc3;
+}
+
+.statistic-list {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 30px;
+  list-style-type: none;
+}
+
+.statistic-list__item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid olive;
+}
+
+.statistic-list__item > p {
+  width: 120px;
+  margin: 0;
+  background: rgb(75, 75, 4);
+  border-right: 1px solid olive;
+}
